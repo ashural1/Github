@@ -10,9 +10,9 @@ function Form({ getData }) {
 
   return (
     <div className="flex justify-center ">
-      <form onSubmit={handleSubmit} className="w-full max-w-lg">
+      <form onSubmit={handleSubmit} className="w-full max-w">
         <div className="flex items-center rounded-full shadow-md p-3">
-          <FaSearch className="w-6 h-6 mr-2" />
+        
           <input
             type="text"
             placeholder="Search GitHub username..."
